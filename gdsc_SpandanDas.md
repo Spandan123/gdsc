@@ -141,4 +141,6 @@ res = np.divide(a1,a2)
 # Time to Matrix-tically wrap this up!
 
 I hope the reader has got a basic understanding of what MD arrays are. See you in the binary sunset!
+
+
 ![Siuuuu](https://media.makeameme.org/created/whenevr-you-watch.jpg)
