@@ -58,4 +58,45 @@ Now each dimension of the MD array is known as an axis and the tuple containing 
 ```
 #creating empty array with all elements 0
 empty_array = np.empty((3,4),0)
+
+#creating custom array with lists
+l1 = [2,3,4]
+l2  = [3,4,5]
+new_array = np.array([l1,l2])
 ```
+
+To access elements from multidimensional arrays, the position in each dimension(axes) must be mentioned in a single bracket after arrayname seperated by ','.
+
+```
+2nd_el_1st_row = new_array[0,1] #prints 3
+last_el_last_row = new_array[-1,-1] #prints 5
+```
+
+## Some useful functions:
+
+```
+array.ndim #tells no. of dimensions(axes) in array
+array.size #tells no. of elements in array
+array.shape #tells the number of elements stored along each dimension of the array
+array.reshape #changes shape of array as demonstrated
+a = np.array([1,2,3,4,5,6])
+a.reshape(3,2) # a = [[1,2,3],[4,5,6]]
+ 
+```
+![Visualising MD arrays](https://miro.medium.com/v2/resize:fit:828/format:webp/1*sxnhgeSptW8Jfol8XUyP-Q.png)
+
+## Indexing and slicing
+
+A very powerful tool in Python is list slicing, which basically means to get a portion of a list kind of like a substring
+
+```
+#for a general list
+a = [1,2,3,4,5]
+b = a[1:4] # b = [2,3,4]
+
+#for numpy array
+a = np.array([1,2,3,4,5])
+a[0:3] #array([1,2,3])
+```
+
+
