@@ -85,7 +85,8 @@ a.reshape(3,2) # a = [[1,2,3],[4,5,6]]
 ```
 ![Visualising MD arrays](https://miro.medium.com/v2/resize:fit:828/format:webp/1*sxnhgeSptW8Jfol8XUyP-Q.png)
 
-## Indexing and slicing
+
+## Slicing
 
 A very powerful tool in Python is list slicing, which basically means to get a portion of a list kind of like a substring
 
@@ -98,5 +99,9 @@ b = a[1:4] # b = [2,3,4]
 a = np.array([1,2,3,4,5])
 a[0:3] #array([1,2,3])
 ```
+![Array Slicing](https://scipy-lectures.org/intro/numpy/array_object.html)
 
 
+Using expressions for slicing lists
+
+a = a[a < 5] # a  = [1,2,3,4]
