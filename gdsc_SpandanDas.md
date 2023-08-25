@@ -1,7 +1,7 @@
 # MULTI DIMENSIONAL ARRAYS - MASTERING THE MATRIX
 
 ## What are arrays?
- 
+
 Arrays are data structures in which:
  * elements are stored in sequential order. The position of each element is its index.
  * A contiguous block of memory which means that each element of the array are stored in the memory such that there are no gaps between their memory addresses.
@@ -141,4 +141,4 @@ res = np.divide(a1,a2)
 # Time to Matrix-tically wrap this up!
 
 I hope the reader has got a basic understanding of what MD arrays are. See you in the binary sunset!
-![Siuuuu](https://programmerhumor.io/programming-memes/alone-debugging-your-code-at-3-am/)
+![Siuuuu](https://media.makeameme.org/created/whenevr-you-watch.jpg)
