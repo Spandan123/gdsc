@@ -1,7 +1,7 @@
 # MULTI DIMENSIONAL ARRAYS - MASTERING THE MATRIX
 
 ## What are arrays?
-
+ 
 Arrays are data structures in which:
  * elements are stored in sequential order. The position of each element is its index.
  * A contiguous block of memory which means that each element of the array are stored in the memory such that there are no gaps between their memory addresses.
