@@ -83,12 +83,12 @@ a = np.array([1,2,3,4,5,6])
 a.reshape(3,2) # a = [[1,2,3],[4,5,6]]
  
 ```
-![Visualising MD arrays](https://miro.medium.com/v2/resize:fit:828/format:webp/1*sxnhgeSptW8Jfol8XUyP-Q.png)
+![Visualising_MD_arrays](https://miro.medium.com/v2/resize:fit:828/format:webp/1*sxnhgeSptW8Jfol8XUyP-Q.png)
 
 
 ## Slicing
 
-A very powerful tool in Python is list slicing, which basically means to get a portion of a list kind of like a substring
+A powerful tool in Python is list slicing, which basically means to get a portion of a list kind of like a substring
 
 ```
 #for a general list
@@ -99,9 +99,46 @@ b = a[1:4] # b = [2,3,4]
 a = np.array([1,2,3,4,5])
 a[0:3] #array([1,2,3])
 ```
-![Array Slicing](https://scipy-lectures.org/intro/numpy/array_object.html)
+![Array Slicing](https://scipy-lectures.org/_images/numpy_indexing.png)
 
 
 Using expressions for slicing lists
 
 a = a[a < 5] # a  = [1,2,3,4]
+
+# Functions for array manipulation
+
+Addition :
+
+```
+arr = np.array([[18, 25, 37], [5, -7, 15]])
+arr1 = np.array([[4, 8, 12], [-13, 24, 17]])
+arr2 = np.add(arr, arr1) #Adds element-wise
+```
+
+Multiplication :
+
+```
+np.dot(array a, array b)   #scalar/dot product of two arrays
+np.matmul(array a, array b)   #the matrix product of two arrays
+np.multiply(array a, array b)  #element-wise matrix multiplication of two arrays
+```
+You can check this site to get a pretty good basic understanding of array multiplication:
+
+[Multiplication of arrays](https://www.educative.io/blog/numpy-matrix-multiplication)
+
+
+Divison
+
+
+```
+#both a1 and a2 need to be of same shape for divison to be performed
+a1 = np.array([[2,6,5],[3,4,8]])
+a2 = np.array([[1,7,2],[10,9,4]])
+res = np.divide(a1,a2) 
+```
+
+# Time to Matrix-tically wrap this up!
+
+I hope the reader has got a basic understanding of what MD arrays are. See you in the binary sunset!
+![Siuuuu](https://programmerhumor.io/programming-memes/alone-debugging-your-code-at-3-am/)
